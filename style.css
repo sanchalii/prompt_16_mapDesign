@@ -1,0 +1,112 @@
+*{
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+background-color:#D1D8C5;
+}
+.page{
+    height: 90%;width: 85%;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ background-color: #006989;
+}
+.nav>h1{
+    color: #FDFFE2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
+}
+.nav>p{
+    color: #FFF5E1;
+    padding-right: 60%;
+}
+.page .box{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 10px 5px #88888897;
+}
+.box >.box1{
+height: 100%;
+width: 40%;
+/* border: 1px solid maroon; */
+}
+.box >.box2{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid maroon; */
+    }
+.box1>.innerbox{
+        height: 25%;
+        width: 100%;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.327);
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #FFF5E1;
+    }
+.innerbox>img{
+    height: 80%;
+    width: 25%;
+    object-fit: cover;
+    object-position: center;
+  margin:10px 10px ;
+  
+}
+.innerbox>h3{
+    padding: 10px 10px;
+    color:#1A5319;
+}
+.innerbox>button{
+    height: 40px;
+    width: 110px;
+    background-color:#80AF81;
+    color: aliceblue;
+    border: none;
+    margin: 20px 10px;
+   border-radius: 10px;
+}
+
+.innerbox>h5{
+  margin-top: 14%;
+  margin-right: 20%;
+  color: #006989;
+}
+.box2>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.innerbox>.boxes{
+    height: 50%;
+    width: 50%;
+    /* border:1px solid #1A5319; */
+    margin-top:12%;
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    margin-left: 10%;
+    color: #254336;
+    
+}
